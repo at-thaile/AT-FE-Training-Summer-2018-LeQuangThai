@@ -1,0 +1,161 @@
+span{
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+.frame-box{
+	width: 50vw;
+	height: 50vw;
+	margin: 50px auto;
+	border: 1px solid black;
+	background-color: #6dfbfc;
+	position: relative;
+}
+.box1{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	top: 0%;
+	left: 0%;
+	background-color: #ed3732;
+  border-radius: 50%;
+}
+.box1 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	top: 0;
+	left: 50%;
+	margin-left: -2.5vw;
+	background-color: #fef951;
+  border: 1px solid #c47572;
+  border-radius: 20%;
+}
+.box2 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+}
+.box3{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	top: 0%;
+	right: 0%;
+	margin-left: -2.5vw;
+	background-color: #1f45f6;
+}
+.box3 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%);
+}
+.box4{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	top: 50%;
+	left: 0%;
+	margin-top: -2.5vw;
+	background-color: #39811c;
+}
+.box4 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+}
+.box5{
+	box-sizing: border-box;
+	position: absolute;
+	width: 8vw;
+	height: 8vw;
+	top: 50%;
+	left: 50%;
+	margin-left: -4vw;
+	margin-top: -4vw;
+	background-color: #f5a53f;
+}
+
+.box5 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+	transform: translate(-50%,-50%);
+}
+.box6{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	top: 50%;
+	right: 0%;
+	margin-top: -2.5vw;
+	background-color: #792778;
+}
+.box6 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%);
+}
+.box7 span{
+	margin: 0;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;	
+	color: #39811c;	
+}
+.box8{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -2.5vw;
+	background-color: #000000;
+}
+.box8 span{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 0%;		
+	transform: translateY(-50%);
+  color: #ffffff;
+}
+.box9{
+	box-sizing: border-box;
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	bottom: 0%;
+	right: 0%;
+	margin-top: -2.5vw;
+	background-color: #7d7d7d;
+}
+.box9 span{
+	margin: 0;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateY(-50%);
+	color: #ed3732;
+}
