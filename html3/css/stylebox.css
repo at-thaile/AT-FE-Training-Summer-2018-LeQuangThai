@@ -116,7 +116,7 @@ span{
 	left: 0%;
 	transform: translateY(-50%);
 }
-.box7 span{
+.box7 {
 	margin: 0;
 	position: absolute;
 	bottom: 5%;
