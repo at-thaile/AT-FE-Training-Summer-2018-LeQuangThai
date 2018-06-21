@@ -63,14 +63,21 @@ a:hover{
 .nav-menu{
 	padding: 2vw 0;
 	border-top: 1px solid #eeeeee;
+  overflow: auto;
 }
 .social-list{	
+  width: 8%;  
 	float: right;
 	margin-right: 12%;
+  overflow: hidden;
 }
 .social-item{
 	float: left;
-	margin-right: 1.5vw;
+  width: calc(75%/3);
+	margin-right: 10%;
+}
+.social-list .social-item:last-child{
+  margin-right: 0;
 }
 .menu-list{
 	list-style-type: none;	
@@ -93,7 +100,8 @@ a:hover{
 }
 .section-breadcrumb{
 	background-image: url('../images/banner.jpg');	
-	padding: 60px 0;
+  background-repeat: repeat-x;
+	padding: 4vw 0;
 	margin-bottom: 5vw;
 }
 .breadcrumb-list{	
@@ -141,19 +149,22 @@ a:hover{
 	float: left;
 	background-color: #d9e4e9;
 }
+.form-send input{
+  display: block;
+  width: 90%;
+}
 .content{
 	width: 60%;
 	float: right;
-	padding-right: 10%;
+	margin-right: 10%; 
 }
 .form-send button {
 	display: block;
 }
 .service-item{
-	width: calc(95%/3);
+	width: calc(30%);
 	float: left;
-	border: 1px solid green;
-	margin-right: 10px;	
+	margin-right: 2%;	
 	margin-bottom: 10px;
 }
 .service-info a img{
@@ -161,13 +172,15 @@ a:hover{
 }
 .service-info h3 a{
 	color: #2a2a2a;
-	font-weight: bold;
+	font-weight: bold;  
+
 }
 .service-info h3{
 	margin: 10px 0;
+  font-size: 2vw;
 }
 .service-info p{
-	font-size: 80%;
+	font-size: 1vw;
 }
 .page-footer{
 	color: #ffffff;
