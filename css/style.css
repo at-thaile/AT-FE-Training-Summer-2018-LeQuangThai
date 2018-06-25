@@ -190,7 +190,10 @@ a:hover {
 	width: 32%;
 	float: left;
 	padding: 0 .3em;
-	margin-bottom: 10px;
+  margin-bottom: 10px;  
+}
+.service-info {
+  border: 1px solid #ebebeb;
 }
 .service-info a img{
 	width: 100%;
@@ -202,10 +205,13 @@ a:hover {
 
 }
 .service-info h3{
-	margin: 10px 0;  
+  margin: 10px 0; 
+  margin-left: .5em; 
 }
 .service-info p{
-	font-size: 1vw;
+  font-size: 1vw;
+  margin-bottom: 1em;
+  margin-left: .5em;
 }
 .page-footer{
 	color: #ffffff;
