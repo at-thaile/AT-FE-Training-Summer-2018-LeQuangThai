@@ -176,6 +176,7 @@ a:hover {
   margin-left: 0.125em;
 }
 .form-send button {
+  font-size: 1em;
   text-transform: uppercase;
   display: block; 
   padding: 1em 3em;
