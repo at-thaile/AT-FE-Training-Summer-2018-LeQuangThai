@@ -5,7 +5,7 @@ body {
 h1 a{
   text-transform: uppercase;	
   font-weight: bold;
-  color: #0d1d25; 
+  color: #0d1d25;  
 }
 a {
   text-decoration: none;
@@ -197,12 +197,12 @@ a:hover {
 }
 .service-info h3 a{
 	color: #2a2a2a;
-	font-weight: bold;  
+  font-weight: bold;  
+  font-size: 100%;;
 
 }
 .service-info h3{
-	margin: 10px 0;
-  font-size: 2vw;
+	margin: 10px 0;  
 }
 .service-info p{
 	font-size: 1vw;
@@ -214,22 +214,23 @@ a:hover {
 	color: #ffffff;
 }
 .footer-top {
-  border-bottom: 1px solid #79cef9;
+  border-bottom: 1px solid #79cef9;  
 }
 .information-list{	
-	padding-top: 20px;
-  padding-bottom: 20px;	 
+  padding: 3em 0;
 }
 .information-item{
 	width: 20%;
   float: left;
-  margin-right: 10%;	
+  margin-right: 10%; 
 }
 .group-item-list{
   list-style-type: disc;	
   list-style-position: inside;
 }
-
+.group-item-list li {
+  margin-top: 1em;
+}
 .author{	
 	padding-top: 20px;
   padding-bottom: 30px;
