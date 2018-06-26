@@ -33,8 +33,7 @@ function baitap4(s1) {
     for(j=0;j<s2.length;j++){
        sum = sum + Number(s2.charAt(j));
     }
-    if((sum%3==0)){
-      console.log(s2);
+    if((sum%3==0) && (Number(s2.charAt(s2.length-1))%2 == 0)) {    
       mang.push(s2);
     }
   }
