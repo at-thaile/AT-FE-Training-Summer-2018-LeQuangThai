@@ -1,0 +1,31 @@
+Khi viết query nên dùng nháy đơn '' cho thuộc tính hoặc tên
+EX document.getElementsByClassName('content-left');
+Operator: a += 2;
+          function x() {
+            xin chao
+          }
+
+Lưu vào localStorage nếu không muốn dữ liệu của browser hết hạn còn lưu vào cookie thì có thể mất khi timeout
+
+
+DOM có phạm vi toàn trang,từ document->html->{head,body}
+POM chứa DOM, history,location, navigotor,screen
+ví dụ,quay lại trnag trước: history.back();
+location(thanh url): .href, .replace, .reload()  ,
+    .href và .replace khá giống nhau nhưng replace không lưu lịch sử'
+    .pathName để lấy domain
+
+navigator: .userAgent : in ra header http
+screen : kich thuoc man hinh thiet bi
+
+Tao var prodcut = {
+  id : ten;
+  img: tenanh;
+  name: sp1;
+  price: 100;
+}  ; prodcut la object
+
+for(dfdfd){
+  "<li > <a."
+}
+luu id cua sp vao localStorage;
